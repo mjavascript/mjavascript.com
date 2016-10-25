@@ -1,0 +1,91 @@
+.ar-after
+  display block
+  width 100%
+  height 100%
+
+.ar-after-poly
+  fill c-white
+
+.ar-container
+  background linear-gradient(
+    35deg,
+    rgba(c-violet, 0.1) 0,
+    rgba(c-violet, 0.5) 45%,
+    rgba(c-blue, 0.5) 0,
+    c-blue 100%
+  )
+
+.ar-title
+  font-superheader()
+  margin-bottom 0.125em
+
+.ar-role
+  margin-bottom 0.125em
+
+.ar-twitter
+  font-size 1.2em
+  text-align center
+
+.ar-bio-wrapper
+  margin-top 2em
+  margin-bottom 3em
+
+.ar-bio
+  padding 1em
+  font-size 1.2em
+  line-height 2em
+
+.ar-link
+  border-bottom 1px dotted
+
+  &:hover
+    border-bottom-style solid
+
+.ar-photo-wrapper
+  max-width 400px
+  margin 0 auto
+  padding 1em
+
+.ar-photo-before,
+.ar-photo-after,
+.ar-photo-in-before,
+.ar-photo-in-after
+  display block
+
+.ar-photo-frame
+  position relative
+.ar-photo-in-before
+  position absolute
+  top 0
+.ar-photo-in-after
+  position absolute
+  bottom 0
+
+.ar-photo-link
+  display block
+  padding 0 1em
+  background rgba(c-pink, 0.8)
+
+.ar-photo-poly
+  fill c-pink
+
+.ar-actions
+  text-align center
+  margin 1em
+  margin-bottom 3em
+
+@media only screen and (min-width: 40em)
+  .ar-bio
+    line-height 1.4em
+
+@media only screen and (min-width: 60em)
+  .ar-row
+    display flex
+    justify-content center
+
+  .ar-bio-wrapper,
+  .ar-photo-wrapper
+    margin 2em
+
+  .ar-bio
+    max-width 30em

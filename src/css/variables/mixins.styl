@@ -1,0 +1,22 @@
+font-size-at(v-screen, v-font)
+  @media only screen and (min-width: v-screen)
+    font-size v-font
+
+font-superheader()
+  margin-left 0.125em
+  margin-right 0.125em
+  text-align center
+  font-size 3em
+  font-size-at(26em, 4em)
+  font-size-at(32em, 5em)
+  font-size-at(36em, 5.75em)
+  font-size-at(48em, 7em)
+
+clearfix()
+  &:after
+    content ' '
+    display block
+    visibility hidden
+    clear both
+    font-size 0
+    height 0

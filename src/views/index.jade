@@ -1,0 +1,543 @@
+-
+  themeColor = '#46185e'
+  image = '/img/cover-with-text.png'
+  title = 'Modular JavaScript Book Series'
+  description = 'Modular JavaScript is an open effort to improve our collective understanding of writing robust, well-tested & modular applications. It consists of five books, each of which explores a key aspect of JavaScript development — comprehensively. The books are produced in the open: anyone can track their progress, report issues & contribute fixes or content. A free-to-read version is available online! Digital & print books can be purchased via O\'Reilly Media.'
+
+  books = [{
+    cover: '/img/practical-es6.png'
+  }, {
+    cover: '/img/mastering-modular-javascript.png'
+  }, {
+    cover: '/img/universal-javascript.png'
+  }, {
+    cover: '/img/testing-javascript-modules.png'
+  }, {
+    cover: '/img/deploying-modern-javascript-apps.png'
+  }]
+
+  quotes = [{
+    author: 'Sara Soueidan',
+    picture: '/img/sara-soueidan.jpg',
+    website: 'https://sarasoueidan.com',
+    twitter: 'sarasoueidan',
+    role: 'Award-Winning Front-End Web Developer',
+    employer: 'Independant Consultant',
+    quote: ['Nicolas is one of the very few people I know to be extremely comfortable with JavaScript. Combine that knowledge with the ability to write quality articles and you’ve got a really great resource to learn from.',
+    'Nicolas’ articles on Pony Foo have established his blog as one of the top go-to resources for everything JavaScript, and especially ES2015. He writes superb quality, easy-to-follow content that helps a lot of people of all levels to level up their JavaScript skills.',
+    'Given all that, I’m confident that his Modular JavaScript book series will certainly not disappoint you, and will help you write better JavaScript and better applications.']
+  }, {
+    author: 'Brendan Eich',
+    picture: '/img/brendan-eich.jpg',
+    website: 'http://www.brendaneich.com',
+    twitter: 'brendaneich',
+    role: 'Inventor of JavaScript',
+    employer: 'Brave Software',
+    quote: ['When I created JavaScript in 1995 at Netscape, I had no idea it would become the most widely used programming language on the Internet. Yet in spite of its ongoing evolution and still-rising popularity, JavaScript could benefit from an incremental and straighforward teaching approach.',
+    'The Modular JavaScript Book Series will attempt to do just that, starting with easily applicable code examples and scaling through design patterns to entire module-based applications. The series will also cover best testing practices and the best practices for deploying JavaScript applications.',
+    'I support Nicolas’ endeavor because these books look likely to increase understanding of JavaScript among many developers. They speak to readers in an easy-to-digest fashion. I encourage you to join this effort so that any programmer can painlessly discover and embrace JavaScript, and then contribute to developing a better Web for everyone.']
+  }, {
+    author: 'Axel Rauschmayer',
+    picture: '/img/axel-rauschmayer.jpg',
+    website: 'http://www.2ality.com',
+    twitter: 'rauschma',
+    role: 'Author',
+    employer: 'Speaking JavaScript and Exploring ES6',
+    quote: ['Nicolás Bevacqua is well-known for his concise and practical writing style. Therefore, supporting his book series on modular JavaScript is a no-brainer.']
+  }, {
+    author: 'David Walsh',
+    picture: '/img/david-walsh.jpg',
+    website: 'http://davidwalsh.name',
+    twitter: 'davidwalshblog',
+    role: 'Senior Front-End Engineer',
+    employer: 'Mozilla Corporation',
+    quote: ['Nicolás Bevacqua is one of my favorite JavaScript personalities. His ability to explain important front-end concepts as well as edge language features continues to impress me. I’m looking forward to reading his Modular JavaScript book series as well as his amazing blog!']
+  }]
+
+  videos = [
+    {
+      author: 'Feross Aboukhadijeh',
+      website: 'http://feross.org',
+      twitter: 'feross',
+      role: 'Hacker',
+      employer: 'WebTorrent',
+      id: '00l0_hNGVfY'
+    },
+    {
+      author: 'Dan Abramov',
+      website: 'https://github.com/gaearon',
+      twitter: 'dan_abramov',
+      role: 'React Team Member',
+      employer: 'Facebook',
+      id: 'vPs9Djjjq10'
+    },
+    {
+      author: 'Jake Archibald',
+      website: 'https://jakearchibald.com',
+      twitter: 'jaffathecake',
+      role: 'Web Standards',
+      employer: 'Google',
+      id: 'MpP4MHFrIF4'
+    },
+    {
+      author: 'Wes Bos',
+      website: 'https://wesbos.com',
+      twitter: 'wesbos',
+      role: 'Really Good Teacher',
+      employer: 'Independant',
+      id: 'Qw7wsOHripw'
+    },
+    {
+      author: 'Mathias Bynens',
+      website: 'https://mathiasbynens.be',
+      twitter: 'mathias',
+      role: 'Developer Relations',
+      employer: 'Opera',
+      id: '3iYLg5onnwQ'
+    },
+    {
+      author: 'Belén Curcio',
+      website: 'http://curcio.be',
+      twitter: 'okbel',
+      role: 'Web Developer',
+      employer: 'Mozilla Corporation',
+      id: '_Zy3jOo_7HM'
+    },
+    {
+      author: 'Kent C. Dodds',
+      website: 'https://kentcdodds.com',
+      twitter: 'kentcdodds',
+      role: 'JavaScript Engineer',
+      employer: 'PayPal',
+      id: 'FYJH67JkORo'
+    },
+    {
+      author: 'Eva Ferreira',
+      website: 'http://evaferreira.com.ar',
+      twitter: 'evaferreira92',
+      role: 'Organizer',
+      employer: 'CSSConf Argentina',
+      id: 'zfgB_Zb-H1I'
+    },
+    {
+      author: 'Jaydson Gomes',
+      website: 'https://jaydson.com',
+      twitter: 'jaydson',
+      role: 'Founder',
+      employer: 'BrazilJS',
+      id: 'yvBJqJCnCl0'
+    },
+    {
+      author: 'Chris Heilmann',
+      website: 'http://www.christianheilmann.com',
+      twitter: 'codepo8',
+      role: 'Developer Evangelist',
+      employer: 'Microsoft',
+      id: 'xcFL3NPmCS8'
+    },
+    {
+      author: 'Claudia Hernandez',
+      website: 'https://twitter.com/koste4',
+      twitter: 'koste4',
+      role: 'Front-End Developer',
+      employer: 'Dailymotion',
+      id: 'UO6gikkIZ40'
+    },
+    {
+      author: 'Nolan Lawson',
+      website: 'https://nolanlawson.com',
+      twitter: 'nolanlawson',
+      role: 'Edge Platform PM',
+      employer: 'Microsoft',
+      id: '67li8kBNu4Q'
+    },
+    {
+      author: 'Thomas Stringer',
+      website: 'http://tstringer.github.io',
+      twitter: 'tr_stringer',
+      role: 'Technical Evangelist',
+      employer: 'Microsoft',
+      id: 'OeC8WYkrpuI'
+    },
+    {
+      author: 'Swizec Teller',
+      website: 'https://swizec.com',
+      twitter: 'swizec',
+      role: 'Full-Stack Developer',
+      employer: 'Consultant',
+      id: 'Kp0hVYJyduc'
+    }
+  ]
+
+mixin metadata
+  meta(charset='utf-8')
+  meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+  meta(name='viewport', content='width=device-width, initial-scale=1')
+  title=title
+
+  meta(name='author', itemprop='creator', content='Nicolás Bevacqua <hello@mjavascript.com>')
+
+  meta(name='description', property='og:description', itemprop='description', content=description)
+  meta(property='og:site_name', content='Modular JavaScript')
+
+  meta(name='twitter:title', itemprop='name', property='og:title', content=title)
+  meta(name='twitter:description', content=description)
+  meta(name='twitter:card', content='summary')
+  meta(name='twitter:site', content='@mjavascript')
+  meta(name='twitter:creator', content='@nzgb')
+
+  meta(property='og:image', itemprop, content=image)
+  meta(name='twitter:image:src', content=image)
+
+  link(rel='icon', href='/favicon.ico')
+
+  meta(name='theme-color', content=themeColor)
+  meta(name='apple-mobile-web-app-status-bar-style', content=themeColor)
+  meta(name='msapplication-navbutton-color', content=themeColor)
+  meta(name='msapplication-TileColor', content=themeColor)
+
+mixin quickSection
+  section.qk-container
+    a.qk-link(href='https://ponyfoo.com/s/modular-javascript-launch', target='_blank')
+      svg.qk-icon.ic-icon(aria-hidden='true', role='img', version='1.1', viewBox='0 0 14 16')
+        path(d='M8 9l3 6h-1l-2-4v5H7v-6l-2 5H4l2-5 2-1zM7 0H6v1h1V0zM5 3H4v1h1V3zM2 1H1v1h1V1zM.63 9a.52.52 0 0 0-.16.67l.55.92c.13.23.41.31.64.2l1.39-.66-1.16-2-1.27.86.01.01zm7.89-5.39l-5.8 3.95L3.95 9.7l6.33-3.03-1.77-3.06h.01zm4.22 1.28l-1.47-2.52a.51.51 0 0 0-.72-.17l-1.2.83 1.84 3.2 1.33-.64c.27-.13.36-.44.22-.7z')
+      span.qk-separator  
+      span.qk-text Announcement
+
+    a.qk-link(href='https://ponyfoo.com/s/practical-es6-read', target='_blank')
+      svg.qk-icon.ic-icon(aria-hidden='true', role='img', version='1.1', viewBox='0 0 12 16')
+        path(d='M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z')
+      span.qk-separator  
+      span.qk-text Read for free!
+
+    a.qk-link(href='https://ponyfoo.com/s/practical-es6-repo-contrib', target='_blank')
+      svg.qk-icon.ic-icon(aria-hidden='true', role='img', version='1.1', viewBox='0 0 16 16')
+        path(d='M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z')
+      span.qk-separator  
+      span.qk-text Collaborate
+
+    a.qk-link.qk-fund(href='https://ponyfoo.com/s/modular-javascript-indiegogo', target='_blank')
+      svg.qk-icon.ic-icon(aria-hidden='true', role='img', version='1.1', viewBox='0 0 16 16')
+        path(d='M9 5H8V4h1v1zm4 3h-1v1h1V8zM6 5H5v1h1V5zM5 8H4v1h1V8zm11-5.5l-.5-.5L9 7c-.06-.02-1 0-1 0-.55 0-1 .45-1 1v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-.92l6-5.58zm-1.59 4.09c.19.61.3 1.25.3 1.91 0 3.42-2.78 6.2-6.2 6.2-3.42 0-6.21-2.78-6.21-6.2 0-3.42 2.78-6.2 6.2-6.2 1.2 0 2.31.34 3.27.94l.94-.94A7.459 7.459 0 0 0 8.51 1C4.36 1 1 4.36 1 8.5 1 12.64 4.36 16 8.5 16c4.14 0 7.5-3.36 7.5-7.5 0-1.03-.2-2.02-.59-2.91l-1 1z')
+      span.qk-separator  
+      span.qk-text Crowdfund!
+
+    a.qk-link(href='https://ponyfoo.com/s/modular-javascript-thunderclap', target='_blank')
+      svg.qk-icon.ic-icon(aria-hidden='true', role='img', version='1.1', viewBox='0 0 16 16')
+        path(d='M10 1c-.17 0-.36.05-.52.14C8.04 2.02 4.5 4.58 3 5c-1.38 0-3 .67-3 2.5S1.63 10 3 10c.3.08.64.23 1 .41V15h2v-3.45c1.34.86 2.69 1.83 3.48 2.31.16.09.34.14.52.14.52 0 1-.42 1-1V2c0-.58-.48-1-1-1zm0 12c-.38-.23-.89-.58-1.5-1-.16-.11-.33-.22-.5-.34V3.31c.16-.11.31-.2.47-.31.61-.41 1.16-.77 1.53-1v11zm2-6h4v1h-4V7zm0 2l4 2v1l-4-2V9zm4-6v1l-4 2V5l4-2z')
+      span.qk-separator  
+      span.qk-text Crowdshare
+
+    a.qk-link(href='https://ponyfoo.com/s/practical-es6-early-release', target='_blank')
+      svg.qk-icon.ic-icon(aria-hidden='true', role='img', version='1.1', viewBox='0 0 16 16')
+        path(d='M14.38 14.59L11 7V3h1V2H3v1h1v4L.63 14.59A1 1 0 0 0 1.54 16h11.94c.72 0 1.2-.75.91-1.41h-.01zM3.75 10L5 7V3h5v4l1.25 3h-7.5zM8 8h1v1H8V8zM7 7H6V6h1v1zm0-3h1v1H7V4zm0-3H6V0h1v1z')
+      span.qk-separator  
+      span.qk-text Early Release
+
+    a.qk-link.qk-twitter(href='https://twitter.com/mjavascript', target='_blank')
+      svg.qk-icon.ic-icon(aria-hidden='true', role='img', version='1.1', viewBox='0 0 335 276')
+        path(d='m302 70a195 195 0 0 1 -299 175 142 142 0 0 0 97 -30 70 70 0 0 1 -58 -47 70 70 0 0 0 31 -2 70 70 0 0 1 -57 -66 70 70 0 0 0 28 5 70 70 0 0 1 -18 -90 195 195 0 0 0 141 72 67 67 0 0 1 116 -62 117 117 0 0 0 43 -17 65 65 0 0 1 -31 38 117 117 0 0 0 39 -11 65 65 0 0 1 -32 35')
+      span.qk-separator  
+      span.qk-text @mjavascript
+
+mixin campaignVideo
+  section.cf-video
+    div.vd-wrapper
+      iframe.vd-frame(
+        src='https://www.youtube.com/embed/7WMLlcJ8KLs',
+        frameborder='0',
+        allowfullscreen
+      )
+
+mixin crowdfundButtons
+  footer.cf-actions
+    a.cf-cta.bt-button.bt-pink.f-heavy(href='https://ponyfoo.com/s/modular-javascript-indiegogo', target='_blank') Crowdfund!
+    a.cf-more.bt-button.bt-bordered.f-heavy(href='https://ponyfoo.com/s/modular-javascript-launch', target='_blank') Learn more
+
+mixin primarySection
+  article.cf-container
+    +campaignVideo
+    aside.cf-aside
+      div.cf-teaser
+        p.cf-tagline Let’s improve our collective understanding of writing robust, well-tested, modular JavaScript code.
+        p.cf-description Modular JavaScript is an open effort to improve our collective understanding of writing robust, well-tested & modular applications. It consists of five books, each of which explores a key aspect of JavaScript development — comprehensively. The books are produced in the open: anyone can track their progress, report issues & contribute fixes or content. A free-to-read version is available online! Digital & print books can be purchased via O’Reilly Media.
+      +crowdfundButtons
+
+mixin booksSection
+  article.bk-container
+    svg.bk-before(preserveAspectRatio='none', viewBox='0 0 1224 112')
+      polygon(x='0', y='0', points='0 32 1224 0 1224 112 0 112')
+
+    div.bk-main
+      section
+        header
+          h1.bk-title That’s a ton of books!
+
+        ul.bk-covers
+          each book in books
+            li.bk-cover-wrapper
+              img.bk-cover(src=book.cover)
+
+      section.bk-descriptions
+        div.bk-description
+          h2.bk-heading Practical ES6
+
+          p The first book explains ES6 language features from a practical viewpoint and using tons of code samples
+          p We’ll be looking at everything from transpilation, destructuring and arrow functions to proxies and generators, but always using plain language and concise code examples that can be applied in real applications.
+
+        div.bk-description
+          h2.bk-heading Mastering Modular JavaScript
+
+          p Crafting a perfect module that’s simple and focused, yet highly reusable, composable, testable might be hard to reason about without first learning about the guiding principles behind module thinking, such as the single responsibility principle, the revealing module pattern, and so on.
+          p Proper documentation, versioning, and module deployment flows for npm also play a large role in developing successful packages.
+
+        div.bk-description
+          h2.bk-heading Universal JavaScript, Modules Everywhere
+
+          p Once you have your modules down, how do you interconnect them and scale out an application without ending up with highly complex modules?
+
+          p All these questions are addressed over the span of two self-contained books: Mastering Modular JavaScript and Universal JavaScript.
+
+        div.bk-description
+          h2.bk-heading Testing JavaScript Modules
+
+          p A book on testing goes over all the latest testing techniques in detail. Instead of going deep into any one framework, we’ll explore the underlying concepts of what designing proper test suites entails.
+          p We’ll also take a look at various kinds of testing, such as visual diff testing, headless browser testing, integration testing, unit testing, and so on.
+
+        div.bk-description
+          h2.bk-heading Deploying Modern JavaScript Apps
+
+          p Finally, the last book is devoted to a few different ways in which we can deploy modular JavaScript applications.
+          p Optimizing your builds for both development and deployment plays a big role in this book.
+          p We’ll also be analyzing the merits of immutable deployments, and how to optimize for http/2.
+
+mixin authorSection
+  article.ar-container
+    svg.bk-after(preserveAspectRatio='none', viewBox='0 0 1224 72')
+      polygon.bk-after-poly(x='0', y='0', points='0 0 1224 0 1224 32 0 64')
+
+    header
+      h1.ar-title Nicolás Bevacqua
+      h5.ar-twitter.ti-twitter-heading
+        div.ar-role Author, Modular JavaScript
+        div
+          a.ti-twitter(href='https://twitter.com/nzgb', target='_blank') @nzgb
+
+    div.ar-row
+      div.ar-bio-wrapper
+        section.ar-bio
+          p
+            | Having published several 
+            a.ar-link(href='https://ponyfoo.com/articles/tagged/es6', target='_blank') articles covering ES6
+            |  on Pony Foo — including a 
+            a.ar-link(href='https://ponyfoo.com/articles/es6', target='_blank') popular and comprehensive overview
+            |  — I’ve already spent a lot of time thinking and writing about these topics.
+
+          p
+            | Early in 2015, I became the published author of 
+            a.ar-link(href='https://ponyfoo.com/books/javascript-application-design', target='_blank') JavaScript Application Design
+            | . I’m an avid open-source 
+            a.ar-link(href='https://github.com/bevacqua', target='_blank') contributor
+            | , an occasional 
+            a.ar-link(href='https://ponyfoo.com/speaking', target='_blank') conference speaker
+            |  and the organizer at 
+            a.ar-link(href='https://nodeconf.com.ar', target='_blank') NodeConf Argentina
+            | .
+
+          p
+            | I’ve been experimenting with JavaScript module design for a long time, both in terms of writing 
+            a.ar-link(href='https://ponyfoo.com/articles/why-i-write-plain-javascript-modules', target='_blank') articles about small modules
+            | , or publishing popular open-source packages such as 
+            a.ar-link(href='https://github.com/bevacqua/dragula', target='_blank') dragula
+            | .
+
+          p Let’s make Modular JavaScript a reality.
+
+        section.ar-actions
+          +crowdfundButtons
+
+      section.ar-photo-wrapper
+        svg.ar-photo-before(preserveAspectRatio='none', viewBox='0 0 1224 72')
+          polygon.ar-photo-poly(x='0', y='0', points='0 72 1224 72 1224 60 0 14')
+
+        div.ar-photo-frame
+          svg.ar-photo-in-before(preserveAspectRatio='none', viewBox='0 0 1224 72')
+            polygon.ar-photo-poly(x='0', y='0', points='0 0 1224 0 1224 60 0 14')
+
+          a.ar-photo-link(href='https://ponyfoo.com', target='_blank')
+            img.ar-photo(src='/img/nicolas-bevacqua.jpg', alt='')
+
+          svg.ar-photo-in-after(preserveAspectRatio='none', viewBox='0 0 1224 72')
+            polygon.ar-photo-poly(x='0', y='0', points='1224 58 0 12 0 72 1224 72')
+
+        svg.ar-photo-after(preserveAspectRatio='none', viewBox='0 0 1224 72')
+          polygon.ar-photo-poly(x='0', y='0', points='0 0 0 12 1224 58 1224 0')
+
+    svg.ar-after(preserveAspectRatio='none', viewBox='0 0 1224 72')
+      polygon.ar-after-poly(x='0', y='0', points='1224 58 0 12 0 72 1224 72')
+
+mixin opennessSection
+  article.os-container
+    header
+      h1.os-title Open!
+
+    div.os-sections
+      section.os-section
+        div.os-content
+          h2.os-heading Collaborative!
+
+          div.os-description
+            p The book chapters, code samples, and related graphics are all open-source. The GitHub repository is the same one I work on while writing the book. You can help me steer the content in real-time, or just take a peek at my writing process and progress.
+
+            p Instead of relying on outdated processes or prohibitive file formats, Modular JavaScript relies on AsciiDoc – a language that’s similar to Markdown, but which has a larger set of features especifically designed to make book writing frictionless.
+
+          p.os-actions
+            a.os-cta.bt-button.bt-bordered.f-heavy(href='https://ponyfoo.com/s/practical-es6-repo-contrib', target='_blank') Collaborate!
+
+        a.os-image-wrapper(href='https://ponyfoo.com/s/practical-es6-repo-contrib', target='_blank')
+          img.os-image(src='https://i.imgur.com/RjdWVDK.png', alt='')
+
+      section.os-section
+        div.os-content
+          h2.os-heading Free to read!
+
+          div.os-description
+            p I want this book series to be as widely available as possible, and the best course of action for that purpose was to give the vast majority of its contents away for free.
+
+            p The book is publicly available in HTML format, and free forever. Each book chapter is styled similarly to how Pony Foo blog posts are styled, which makes for a fairly enjoyable read as far as HTML books go.
+
+          p.os-actions
+            a.os-cta.bt-button.bt-bordered.f-heavy(href='https://ponyfoo.com/s/practical-es6-read', target='_blank') Start Reading!
+
+        a.os-image-wrapper(href='https://ponyfoo.com/s/practical-es6-read', target='_blank')
+          img.os-image(src='https://i.imgur.com/F41tiVr.png', alt='')
+
+      section.os-section
+        div.os-content
+          h2.os-heading Crowdfunded!
+
+          div.os-description
+            p Offering all of this content free of charge is amazing because I can ensure that anybody who’s interested in JavaScript can learn more about it.
+
+            p The first book is already well underway, and I’d love to be able to justify the dedication that each book in the series deserves.
+
+            p That’s why I’m asking for your help with a crowdfunding campaign.
+
+          p.os-actions
+            a.os-cta.bt-button.bt-bordered.f-heavy(href='https://ponyfoo.com/s/modular-javascript-indiegogo', target='_blank') Crowdfund!
+
+        a.os-image-wrapper(href='https://ponyfoo.com/s/modular-javascript-indiegogo', target='_blank')
+          img.os-image(src='https://i.imgur.com/02Cqf9W.png', alt='')
+
+    footer.os-print
+      div.os-print-content.os-content
+        h2.os-print-heading.os-heading Also in print!
+
+        div.os-description
+          p I’ve partnered with O’Reilly Media to publish the book. This is a paid offering that includes a PDF ebook and eventually a print book. The published book is a great way to show your support for my work, by paying a bit for it — and telling your friends how awesome my writing is. 😘
+
+          p We’ll start with an Early Release, where you will get the first few chapters in ebook format. As new chapters come out and old ones get improvements, you’ll receive those updates at no extra cost to you. You’ll also get an opportunity to review my writing efforts by reporting errors and delivering feedback.
+
+        p.os-actions
+          a.os-cta.bt-button.bt-bordered.f-heavy(href='https://ponyfoo.com/s/practical-es6-early-release', target='_blank') Purchase!
+
+      a.os-print-image-wrapper.os-image-wrapper(href='https://ponyfoo.com/s/practical-es6-early-release', target='_blank')
+        img.os-print-image.os-image(src='/img/practical-es6.png', alt='')
+
+    svg.os-after(preserveAspectRatio='none', viewBox='0 0 1224 72')
+      defs
+        linearGradient#os-after-gradient
+          stop(offset='5%', stop-color='#8e207d')
+          stop(offset='95%', stop-color='#644380')
+      polygon.os-after-poly(x='0', y='0', points='1224 32 1224 72 0 72 0 64')
+
+mixin influencerProfile(influencer)
+  h2.ti-name.f-header
+    a.ti-name-link(href=influencer.website, target='_blank')=influencer.author
+  h5.ti-twitter-heading
+    a.ti-twitter(href='https://twitter.com/' + influencer.twitter, target='_blank') @#{influencer.twitter}
+  h4.ti-role=influencer.role
+  h3.ti-employer=influencer.employer
+
+mixin testimonialSection
+  article.tt-container
+    header.tt-title-wrapper
+      h1.tt-title Endorsements!
+
+    section.tq-container
+      each quote in quotes
+        blockquote.tq-item
+          div.ti-container
+            a.ti-photo-wrapper(href=quote.website, target='_blank')
+              img.ti-photo(src=quote.picture, alt='')
+            +influencerProfile(quote)
+          div.tq-quote
+            each line in quote.quote
+              p.tq-quote-line=line
+
+    svg.tv-poly.tv-before(preserveAspectRatio='none', viewBox='0 0 1224 112')
+      polygon(x='0', y='0', points='0 32 1224 0 1224 112 0 112')
+
+    section.tv-container
+      svg.tv-poly(preserveAspectRatio='none', viewBox='0 0 1224 72')
+        polygon(x='0', y='0', points='0 0 1224 0 1224 32 0 72')
+
+      each video in videos
+        div.tv-frame
+          div.ti-container
+            +influencerProfile(video)
+          div.vd-wrapper
+            iframe.vd-frame(
+              src='https://www.youtube.com/embed/' + video.id,
+              frameborder='0',
+              allowfullscreen
+            )
+
+      svg.tv-poly(preserveAspectRatio='none', viewBox='0 0 1224 112')
+        polygon(x='0', y='0', points='0 32 1224 0 1224 112 0 112')
+
+    svg.tv-poly.tv-after(preserveAspectRatio='none', viewBox='0 0 1224 72')
+      polygon(x='0', y='0', points='0 0 1224 0 1224 32 0 72')
+
+mixin footer
+  footer.hf-footer
+    div.hf-links
+      a.hf-cta.bt-button.bt-bordered.f-heavy(href='https://ponyfoo.com/s/modular-javascript-indiegogo', target='_blank') Crowdfund!
+      a.hf-twitter(href='https://twitter.com/mjavascript', target='_blank') @mjavascript
+      a.hf-ponyfoo(href='https://ponyfoo.com', target='_blank') ponyfoo.com
+    div.cv-cover
+      include ../static/img/cover.svg
+
+mixin ga
+  script.
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-35043128-13', 'auto');
+    ga('send', 'pageview');
+
+doctype html
+html(lang='en')
+  head
+    +metadata
+
+    link(rel='stylesheet', href='/css/all.css', type='text/css')
+    link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Bungee|Roboto|Galindo')
+
+  body.f-core
+    +quickSection
+
+    header
+      h1.hh-title Modular JavaScript
+
+    main
+      +primarySection
+      +booksSection
+      +authorSection
+      +opennessSection
+      +testimonialSection
+
+    +footer
+
+    +ga

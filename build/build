@@ -1,0 +1,17 @@
+#!/bin/bash
+
+set -e
+
+npm run clean
+npm run copy
+
+pug -Do docs src/views
+
+stylus src/css/all.styl \
+  --out docs/css/all.css \
+  --include-css \
+  --compress
+
+cleancss docs/css/all.css \
+  --output docs/css/all.css \
+  --s0

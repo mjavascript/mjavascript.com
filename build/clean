@@ -1,0 +1,2 @@
+rm -rf docs
+mkdir -p docs/css

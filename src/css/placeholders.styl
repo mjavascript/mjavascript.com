@@ -1,0 +1,17 @@
+placeholders(c-color)
+  &::-webkit-input-placeholder
+    color rgba(c-color, 0.3)
+  :focus::-webkit-input-placeholder
+    color c-color
+
+  &::-moz-placeholder
+    color rgba(c-color, 0.3)
+  :focus::-moz-placeholder
+    color c-color
+
+  &:-ms-input-placeholder
+    color rgba(c-color, 0.3)
+  :focus:-ms-input-placeholder
+    color c-color
+
+placeholders(c-teal)

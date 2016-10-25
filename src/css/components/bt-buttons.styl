@@ -1,0 +1,31 @@
+.bt-button
+  display inline-block
+  padding 0.375em 0.5em
+  border-radius 0.1875em
+  box-shadow 0 0 1em rgba(c-black, 0.5)
+  cursor pointer
+  text-decoration none
+
+bt-gradient(v-color)
+  background linear-gradient(
+    to right bottom,
+    v-color 50%,
+    darken(v-color, 10%) 50%,
+    lighten(v-color, 10%) 80%,
+    lighten(v-color, 10%) 80%
+  )
+  background-size 200% 200%
+  background-position right bottom
+  transition 0.25s all ease-in
+
+  &:hover
+    background-position left top
+
+.bt-pink
+  bt-gradient(c-pink)
+
+.bt-bordered
+  border 5px solid
+
+  &:hover
+    opacity 0.8

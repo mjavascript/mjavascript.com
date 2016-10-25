@@ -1,0 +1,44 @@
+.qk-container
+  display none
+
+.qk-icon
+  height 1.2em
+
+.qk-icon,
+.qk-separator
+.qk-text
+  vertical-align middle
+
+.qk-text
+  border-bottom 1px dotted
+
+.qk-link:hover .qk-text
+  border-bottom-style solid
+
+.qk-fund
+  f-use-heavy()
+  padding 0.4em
+  font-weight bold
+  font-size 1.2em
+  background spin(c-lime, 12%)
+  color spin(c-teal, 10%)
+  box-shadow 1px 1px 3px rgba(c-black, 0.2)
+
+  &:hover
+    background spin(c-lime, 5%)
+
+.qk-twitter
+  color c-twitter
+
+@media only screen and (min-width: 60em)
+  .qk-container
+    display flex
+    align-items center
+    justify-content space-between
+    padding 1em
+    background linear-gradient(
+      30deg,
+      rgba(c-lime, 0.1) 0,
+      rgba(c-teal, 0.1) 100%
+    )
+    box-shadow 1px 1px 5px rgba(c-purple, 0.3)

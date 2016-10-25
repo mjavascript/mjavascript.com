@@ -1,0 +1,29 @@
+{
+  "env": {
+    "node": true,
+    "commonjs": true,
+    "es6": true
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {
+    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "linebreak-style": ["error", "unix"],
+    "quotes": ["error", "backtick"],
+    "semi": ["error", "always"],
+    "array-callback-return": "error",
+    "complexity": "error",
+    "curly": "error",
+    "eqeqeq": "error",
+    "handle-callback-err": "error",
+    "global-require": "error",
+    "no-console": "warn",
+    "no-constant-condition": 0,
+    "no-else-return": "error",
+    "no-prototype-builtins": "error",
+    "no-unsafe-negation": "error",
+    "no-shadow-restricted-names": "error"
+  }
+}

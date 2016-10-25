@@ -1,0 +1,43 @@
+.ti-container
+  padding 1.2em
+  background linear-gradient(
+    to bottom right,
+    rgba(c-black, 0.2) 0,
+    rgba(c-black, 0.1) 100%
+  )
+  color c-white
+  clearfix()
+
+.ti-photo-wrapper
+  float right
+  max-width 20%
+  margin-left 0.5em
+  border-bottom 2px solid rgba(c-black, 0.1)
+  box-shadow 2px 2px 0.5em rgba(c-black, 0.1)
+.ti-photo
+  display block
+  max-height 6.5em
+
+.ti-name
+  font-size 1.5em
+
+.ti-name,
+.ti-twitter-heading
+  margin 0
+
+.ti-twitter
+  color c-twitter
+
+.ti-name-link,
+.ti-twitter
+  &:hover
+    text-decoration underline
+
+.ti-role
+  margin-bottom 0.2em
+.ti-employer
+  margin 0
+
+@media only screen and (min-width: 50em)
+  .ti-name
+    font-size 2em

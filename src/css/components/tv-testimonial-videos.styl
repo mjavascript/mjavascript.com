@@ -1,0 +1,54 @@
+.tv-before
+  margin-top 2em
+.tv-after
+  margin-bottom 6em
+
+.tv-container
+  background linear-gradient(
+    to bottom,
+    rgba(c-black, 0.1) 0,
+    rgba(c-black, 0.05) 55%,
+    rgba(c-black, 0.15) 80%,
+    rgba(c-black, 0.25) 98%
+  ),
+  linear-gradient(
+    115deg,
+    rgba(c-orange, 0.35) 0,
+    rgba(c-orange, 0.45) 35%,
+    rgba(c-orange, 0.65) 0,
+    rgba(c-orange, 1   ) 65%,
+    rgba(c-teal,   0.3) 0,
+    rgba(c-teal,   0.7) 100%
+  )
+
+.tv-poly
+  display block
+  width 100%
+  height 100%
+  fill rgba(c-lime, 0.2)
+
+.tv-frame
+  width 100%
+  padding 1em
+
+.tv-frame .vd-wrapper
+  border-bottom 4px solid rgba(c-lime, 0.5)
+
+@media only screen and (min-width: 38em)
+  .tv-container
+    display flex
+    flex-wrap wrap
+
+  .tv-frame
+    display flex
+    flex-direction column
+    justify-content space-between
+    width 50%
+
+@media only screen and (min-width: 56em)
+  .tv-frame
+    width 33.3333333333%
+
+@media only screen and (min-width: 70em)
+  .tv-frame
+    width 25%

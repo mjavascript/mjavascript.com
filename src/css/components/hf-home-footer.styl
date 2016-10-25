@@ -1,0 +1,38 @@
+.hf-footer
+  margin-top 2em
+
+.hf-links
+  f-use-header()
+  padding-bottom 2em
+  font-size 1em
+  margin 0 1em
+
+.hf-cta
+  display block
+  font-size 2em
+  margin 1em auto 1.5em
+  max-width 10em
+  box-shadow none
+
+.hf-twitter,
+.hf-ponyfoo
+  padding 0.5em
+  color c-white
+
+.hf-twitter
+  margin-right 1em
+  background c-twitter
+
+  &:hover
+    background lighten(c-twitter, 10%)
+
+.hf-ponyfoo
+  margin-left 1em
+  background c-pink
+
+  &:hover
+    background lighten(c-pink, 10%)
+
+@media only screen and (min-width: 56em)
+  .hf-links
+    margin-bottom 4em

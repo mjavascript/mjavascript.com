@@ -1,0 +1,21 @@
+f-core = 'Roboto', sans-serif
+f-header = 'Galindo', sans-serif
+f-heavy = 'Bungee', sans-serif
+
+f-use-heavy()
+  font-family f-heavy
+
+f-use-header()
+  font-family f-header
+
+f-use-core()
+  font-family f-core
+
+.f-heavy
+  f-use-heavy()
+
+.f-header
+  f-use-header()
+
+.f-core
+  f-use-core()

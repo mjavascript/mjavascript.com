@@ -1,0 +1,144 @@
+.os-before-poly
+  fill c-white
+
+.os-after-poly
+  fill url(#os-after-gradient)
+
+.os-after
+  display block
+
+.os-container
+  background linear-gradient(
+    to bottom,
+    c-white 0,
+    c-light-gray 28%,
+    c-gray 55%,
+    c-white 100%
+  )
+
+.os-title
+  color c-violet
+  text-shadow 5px 5px 0 rgba(c-black, 0.2)
+  font-size 6em
+  padding 0.3em 0 0.2em
+  margin-top 0
+  text-align center
+
+.os-sections
+  color c-white
+
+.os-section,
+.os-print
+  margin 1em
+  padding 1em
+  background linear-gradient(
+    30deg,
+    rgba(c-teal, 0.05) 5%,
+    rgba(c-teal, 0.1) 15%,
+    rgba(c-teal, 0.15) 55%,
+    rgba(c-teal, 0.2) 75%,
+    rgba(c-teal, 0.25) 90%
+  ),
+  linear-gradient(
+    60deg,
+    rgba(darken(c-purple,  5%), 0.3) 10%,
+    rgba(darken(c-purple,  1%), 0.3) 10%,
+    rgba(darken(c-purple,  4%), 0.3) 40%,
+    rgba(darken(c-purple,  7%), 0.3) 40%,
+    rgba(darken(c-purple, 10%), 0.3) 60%,
+    rgba(darken(c-purple, 15%), 0.3) 70%,
+    rgba(darken(c-purple, 18%), 0.3) 70%
+  )
+
+  p
+    line-height 1.5em
+
+.os-heading
+  f-use-header()
+  font-size 1.8em
+  text-align center
+  text-shadow 2px 2px 0 rgba(c-black, 0.2)
+  margin-top 0.5em
+
+.os-actions
+  text-align center
+
+.os-cta
+  background c-violet
+
+.os-content
+  background linear-gradient(
+    110deg,
+    rgba(c-black, 0.05) 5%,
+    rgba(c-black, 0.1) 15%,
+    rgba(c-black, 0.15) 55%,
+    rgba(c-black, 0.2) 75%,
+    rgba(c-black, 0.25) 90%
+  )
+  padding 1em
+  margin-bottom 2em
+
+.os-description
+  font-size 1.2em
+  line-height 1.4em
+
+.os-print-image-wrapper
+  display block
+  background linear-gradient(
+    145deg,
+    rgba(c-teal, 0.05) 0,
+    rgba(c-teal, 0.35) 55%,
+    rgba(c-teal, 0.7) 0,
+    rgba(c-teal, 0.9) 100%
+  )
+  box-shadow 2px 2px 0.5em rgba(c-violet, 0.1)
+  padding 1em
+  text-align center
+
+.os-print-image
+  max-height 25rem
+
+@media only screen and (min-width: 40em)
+  .os-title
+    font-size 10em
+
+  .os-heading
+    font-size 4em
+
+  .os-print
+    margin 3em auto
+    max-width 50em
+    display flex
+
+  .os-print-content
+    margin-bottom 0
+
+  .os-print-image-wrapper
+    display flex
+    align-items center
+    margin-left 1em
+    padding 2em
+
+  .os-print-image
+    max-height none
+
+@media only screen and (min-width: 68em)
+  .os-content
+    padding 0 1em 2em
+
+  .os-sections
+    display flex
+    flex-wrap wrap
+    justify-content space-between
+
+  .os-section
+    display flex
+    flex-direction column
+    justify-content space-between
+    width 30%
+
+  .os-heading
+    font-size 2.2em
+
+  .os-actions
+    font-size 1.5em

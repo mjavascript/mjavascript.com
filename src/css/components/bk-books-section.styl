@@ -1,0 +1,117 @@
+.bk-container
+  margin-top 6em
+
+.bk-before,
+.bk-after
+  display block
+  width 100%
+  height 100%
+
+bk-gradient-start = darken(c-lime, 15%)
+bk-gradient-end = darken(spin(c-lime, 10%), 15%)
+
+.bk-before
+  fill bk-gradient-start
+.bk-after-poly
+  fill bk-gradient-end
+
+.bk-main
+  background linear-gradient(
+    to bottom,
+    bk-gradient-start 0,
+    bk-gradient-end 100%
+  )
+  padding-top 2em
+  padding-bottom 5em
+
+.bk-title
+  margin-top 0
+  font-superheader()
+  font-style italic
+  color c-pink
+  text-shadow 2px 2px 0 c-white
+
+.bk-covers
+  padding 1em
+  list-style-type none
+  display flex
+  flex-wrap wrap
+  justify-content space-between
+
+.bk-cover-wrapper
+  background linear-gradient(
+    145deg,
+    rgba(c-teal, 0.05) 0,
+    rgba(c-teal, 0.1) 45%,
+    rgba(c-teal, 0.2) 45%,
+    rgba(c-teal, 0.3) 100%
+  )
+  box-shadow 2px 2px 0.5em rgba(c-orange, 0.1)
+  width 48%
+  padding 1em
+  margin-bottom 1em
+
+.bk-cover
+  display block
+
+.bk-descriptions
+  margin 2em 1em
+
+.bk-description
+  background linear-gradient(
+    145deg,
+    rgba(c-white, 0.35) 0,
+    rgba(c-white, 0.5) 45%,
+    rgba(c-white, 0.65) 0,
+    rgba(c-white, 0.8) 100%
+  )
+  box-shadow 2px 2px 0.5em rgba(c-teal, 0.1)
+  padding 1em
+  margin 1em 0
+  font-size 1.2em
+  line-height 1.4em
+  color c-black-text
+
+.bk-heading
+  f-use-heavy()
+  text-align center
+  font-size 1.6em
+  text-shadow 2px 2px 0 c-white
+  line-height 1.2em
+  margin-top 0
+  color c-pink
+
+@media only screen and (min-width: 35em)
+  .bk-covers
+    justify-content flex-start
+
+  .bk-cover-wrapper
+    width 31.3333333%
+    margin 1%
+
+  .bk-descriptions
+    display flex
+    flex-wrap wrap
+    justify-content space-between
+    margin-left 1.5em
+    margin-right 1.5em
+
+  .bk-description
+    width 48%
+
+@media only screen and (min-width: 65em)
+  .bk-covers
+    justify-content space-between
+
+  .bk-cover-wrapper
+    width 19%
+    margin 0
+
+  .bk-descriptions
+    justify-content flex-start
+    margin-left 0.25em
+    margin-right 0.25em
+
+  .bk-description
+    width 31.3333333%
+    margin 1%

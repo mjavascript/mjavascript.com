@@ -1,0 +1,113 @@
+.cf-container
+  margin 0 1em 6em
+
+.cf-video
+  width 100%
+  padding 1em
+  background rgba(c-white, 0.9)
+  box-shadow 0.25rem 0.25rem 0.25rem rgba(c-black, 0.1)
+
+.cf-teaser
+  display none
+
+.cf-tagline
+  f-use-heavy()
+  font-size 1.5em
+  text-shadow 1px 1px 5px c-purple
+  line-height 1.4em
+
+.cf-description
+  text-align left
+  font-size 1.1em
+  line-height 1.4em
+
+.cf-cta,
+.cf-more
+  margin 1em 0
+  display block
+  width 100%
+  text-align center
+
+.cf-cta
+  position relative
+  font-size 2em
+
+  &:after
+    content ''
+    position absolute
+    pointer-events none
+    width 0.3125rem
+    background linear-gradient(
+      to bottom,
+      rgba(c-purple, 0.2) 50%,
+      c-white 50%, c-white 55%, rgba(c-purple, 0.2) 55%
+    )
+    background-size 200% 200%
+    background-position right top
+    transition 0.2s all ease-in
+    opacity 0.9
+    transform rotateZ(88deg)
+    right 10rem
+    height 19rem
+    bottom -9.3rem
+
+  &:hover:after
+    background-position left bottom
+
+.cf-more
+  font-size 1.4em
+
+@media only screen and (min-width: 37.5em)
+  .cf-aside
+    text-align center
+
+  .cf-cta,
+  .cf-more
+    display inline-block
+    vertical-align middle
+    max-width 50%
+    width auto
+
+  .cf-cta
+    margin-right 1em
+
+@media only screen and (min-width: 48em)
+  .cf-container
+    display flex
+    justify-content center
+
+  .cf-video,
+  .cf-aside
+    display flex
+    flex-direction column
+    justify-content center
+    width 49%
+
+  .cf-video
+    margin-right 1%
+  .cf-aside
+    background linear-gradient(
+      to left,
+      rgba(c-black, 0.05) 0,
+      rgba(c-black, 0.1)  100%
+    )
+    margin-left 1%
+    padding 2em
+
+  .cf-cta,
+  .cf-more
+    display block
+    max-width 100%
+    width 100%
+
+@media only screen and (min-width: 64em)
+  .cf-teaser
+    display block
+
+@media only screen and (min-width: 76em)
+  .cf-cta,
+  .cf-more
+    display inline-block
+    vertical-align middle
+    max-width 50%
+    width auto

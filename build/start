@@ -1,0 +1,15 @@
+#!/bin/bash
+
+set -e
+
+npm run clean
+npm run copy
+
+pug -Dwo docs src/views &
+
+stylus src/css/all.styl \
+  --out docs/css/all.css \
+  --include-css \
+  --watch &
+
+static-server docs
