@@ -1,1 +1,1 @@
-cp -r src/static/{img,favicon.ico} docs
+cp -r {CNAME,src/static/{img,favicon.ico}} docs
