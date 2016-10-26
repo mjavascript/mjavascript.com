@@ -1,4 +1,5 @@
 -
+  authority = 'https://mjavascript.com'
   themeColor = '#46185e'
   image = '/img/cover-with-text.png'
   title = 'Modular JavaScript Book Series'
@@ -186,8 +187,10 @@ mixin metadata
   meta(name='twitter:site', content='@mjavascript')
   meta(name='twitter:creator', content='@nzgb')
 
-  meta(property='og:image', itemprop, content=image)
-  meta(name='twitter:image:src', content=image)
+  meta(property='og:image', itemprop, content=authority + image)
+  meta(name='twitter:image:src', content=authority + image)
+
+  link(rel='canonical', href=authority)
 
   link(rel='icon', href='/favicon.ico')
 
